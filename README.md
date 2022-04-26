@@ -1,17 +1,17 @@
 # TreeFunction
-Main task.
+### Main task.
 
-Need to display all directories and files in the given path. At the end of the output there should be printed the number of directories and files on a new line (see the sample output or the output of the tree function without parameters).
+Need to display all directories and files in the given path. At the end of the output there should be printed the number of directories and files on a new line (see the sample output or the output of the `tree` function without parameters).
 
-Input.
+### Input.
 The only script argument is the path (the path may differ from the example presented)
 
-bash script.bash .
+```bash script.bash .```
 
-Output.
+### Output.
 
 Standart output structured like given:
-
+```
 .
 ├── abc
 ├── aberdeen
@@ -37,3 +37,4 @@ Standart output structured like given:
     └── aaa.txt
 
 10 directories, 12 files
+```
